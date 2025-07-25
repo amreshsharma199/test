@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'jenkinsslave'  }
     triggers {
         pollSCM('* * * * *') // every minute
     }
