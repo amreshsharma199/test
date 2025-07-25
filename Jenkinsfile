@@ -23,7 +23,6 @@ pipeline {
         }
     }
 }
-
 // pipeline {
 //     agent { label 'jenkinsslave'  }
 //     triggers {
