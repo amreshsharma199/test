@@ -21,7 +21,6 @@ pipeline {
                 sh './pipeline_tasks.sh && source pipeline_tasks.sh && build_project'
             }
         }
-
         stage('Test') {
             steps {
                 sh './pipeline_tasks.sh && source pipeline_tasks.sh && test_project'
