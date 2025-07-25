@@ -2,6 +2,7 @@
 
 clone_repo() {
     echo "Cloning repo..."
+    git clone "https://github.com/amreshsharma199/test.git "
     # Add your cloning logic here (or leave blank if Jenkins does it)
 }
 
